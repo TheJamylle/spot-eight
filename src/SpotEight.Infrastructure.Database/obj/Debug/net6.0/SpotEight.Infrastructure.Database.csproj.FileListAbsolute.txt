@@ -1,0 +1,17 @@
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\bin\Debug\net6.0\SpotEight.Infrastructure.Database.deps.json
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\bin\Debug\net6.0\SpotEight.Infrastructure.Database.runtimeconfig.json
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\bin\Debug\net6.0\SpotEight.Infrastructure.Database.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\bin\Debug\net6.0\SpotEight.Infrastructure.Database.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\bin\Debug\net6.0\SpotEight.Core.Domain.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\bin\Debug\net6.0\SpotEight.Core.Domain.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.csproj.AssemblyReference.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.AssemblyInfoInputs.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.AssemblyInfo.cs
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.csproj.CoreCompileInputs.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEigh.668859A6.Up2Date
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\refint\SpotEight.Infrastructure.Database.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\SpotEight.Infrastructure.Database.genruntimeconfig.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Database\obj\Debug\net6.0\ref\SpotEight.Infrastructure.Database.dll

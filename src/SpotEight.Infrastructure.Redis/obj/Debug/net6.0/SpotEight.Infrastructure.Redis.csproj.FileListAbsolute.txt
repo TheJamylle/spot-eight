@@ -1,0 +1,11 @@
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\bin\Debug\net6.0\SpotEight.Infrastructure.Redis.deps.json
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\bin\Debug\net6.0\SpotEight.Infrastructure.Redis.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\bin\Debug\net6.0\SpotEight.Infrastructure.Redis.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\SpotEight.Infrastructure.Redis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\SpotEight.Infrastructure.Redis.AssemblyInfoInputs.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\SpotEight.Infrastructure.Redis.AssemblyInfo.cs
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\SpotEight.Infrastructure.Redis.csproj.CoreCompileInputs.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\SpotEight.Infrastructure.Redis.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\refint\SpotEight.Infrastructure.Redis.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\SpotEight.Infrastructure.Redis.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.Redis\obj\Debug\net6.0\ref\SpotEight.Infrastructure.Redis.dll

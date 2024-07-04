@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4H1rAFvCG4QhXS0n+QRnORlVFTNVia5lVw6GYSq9qMM=",
+  "Source": "SpotEight.Api",
+  "BasePath": "_content/SpotEight.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

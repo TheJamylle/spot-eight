@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>SpotEight.Core.Application</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Extensions\**" />
+		<Compile Remove="UseCases\V1\Cycles\Post\Validations\**" />
+		<EmbeddedResource Remove="Extensions\**" />
+		<EmbeddedResource Remove="UseCases\V1\Cycles\Post\Validations\**" />
+		<None Remove="Extensions\**" />
+		<None Remove="UseCases\V1\Cycles\Post\Validations\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SpotEight.Core.Domain\SpotEight.Core.Domain.csproj" />
+		<ProjectReference Include="..\SpotEight.Infrastructure.AWS\SpotEight.Infrastructure.AWS.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="6.0.2" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.PostgreSQL.Storage" Version="6.0.4" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="CsvHelper" Version="30.0.1" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI" Version="6.0.5" />
+		<PackageReference Include="RestSharp" Version="106.15.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Common\Function\" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\bin\Debug\net6.0\SpotEight.Infrastructure.AWS.deps.json
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\bin\Debug\net6.0\SpotEight.Infrastructure.AWS.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\bin\Debug\net6.0\SpotEight.Infrastructure.AWS.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\bin\Debug\net6.0\SpotEight.Core.Domain.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\bin\Debug\net6.0\SpotEight.Core.Domain.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.csproj.AssemblyReference.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.AssemblyInfoInputs.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.AssemblyInfo.cs
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.csproj.CoreCompileInputs.cache
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEigh.F2251E88.Up2Date
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\refint\SpotEight.Infrastructure.AWS.dll
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\SpotEight.Infrastructure.AWS.pdb
+C:\Users\JamylleThaisBarrense\Documents\spot-eight-backend\src\SpotEight.Infrastructure.AWS\obj\Debug\net6.0\ref\SpotEight.Infrastructure.AWS.dll

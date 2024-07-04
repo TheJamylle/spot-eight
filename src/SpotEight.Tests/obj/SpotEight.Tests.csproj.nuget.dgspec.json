@@ -1,0 +1,498 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Tests\\SpotEight.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Application\\SpotEight.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Application\\SpotEight.Core.Application.csproj",
+        "projectName": "SpotEight.Core.Application",
+        "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Application\\SpotEight.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JamylleThaisBarrense\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj"
+              },
+              "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.AWS\\SpotEight.Infrastructure.AWS.csproj": {
+                "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.AWS\\SpotEight.Infrastructure.AWS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "AspNetCore.HealthChecks.UI.PostgreSQL.Storage": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj",
+        "projectName": "SpotEight.Core.Domain",
+        "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JamylleThaisBarrense\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.AWS\\SpotEight.Infrastructure.AWS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.AWS\\SpotEight.Infrastructure.AWS.csproj",
+        "projectName": "SpotEight.Infrastructure.AWS",
+        "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.AWS\\SpotEight.Infrastructure.AWS.csproj",
+        "packagesPath": "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.AWS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JamylleThaisBarrense\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.104.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\SpotEight.Infrastructure.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\SpotEight.Infrastructure.Redis.csproj",
+        "projectName": "SpotEight.Infrastructure.Redis",
+        "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\SpotEight.Infrastructure.Redis.csproj",
+        "packagesPath": "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JamylleThaisBarrense\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Tests\\SpotEight.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Tests\\SpotEight.Tests.csproj",
+        "projectName": "SpotEight.Tests",
+        "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Tests\\SpotEight.Tests.csproj",
+        "packagesPath": "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JamylleThaisBarrense\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Application\\SpotEight.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Application\\SpotEight.Core.Application.csproj"
+              },
+              "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Core.Domain\\SpotEight.Core.Domain.csproj"
+              },
+              "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\SpotEight.Infrastructure.Redis.csproj": {
+                "projectPath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\SpotEight.Infrastructure.Redis.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

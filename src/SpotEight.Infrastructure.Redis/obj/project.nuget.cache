@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gt73UhVNvMJIzANooVV6chJ2MtzgGtexOpJQzWk/+4S2Vki55BDJExK+3HCPz0hKB3gX6wtZCGy1WIo7v5Fl0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JamylleThaisBarrense\\Documents\\spot-eight-backend\\src\\SpotEight.Infrastructure.Redis\\SpotEight.Infrastructure.Redis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\JamylleThaisBarrense\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

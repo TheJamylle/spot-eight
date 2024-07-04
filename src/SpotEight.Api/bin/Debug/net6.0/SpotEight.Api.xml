@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpotEight.Api</name>
+    </assembly>
+    <members>
+        <member name="T:SpotEight.Api.ConfigureSwaggerOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.ConfigureSwaggerOptions.#ctor(Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            
+            </summary>
+            <param name="provider"></param>
+        </member>
+        <member name="M:SpotEight.Api.ConfigureSwaggerOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="M:SpotEight.Api.ConfigureSwaggerOptions.Configure(System.String,Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="options"></param>
+        </member>
+        <member name="T:SpotEight.Api.Config.Logger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Config.Logger.AddSerilog(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SpotEight.Api.Config.Middlewares.RequestLogMiddleware">
+            <summary>
+            BadRequest json middleware
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Config.Middlewares.RequestLogMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:SpotEight.Api.Config.Middlewares.RequestLogMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Middleware invoker
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:SpotEight.Api.Config.Middlewares.RequestLogMiddlewareExtensions">
+            <summary>
+            Class to inject middleware
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Config.Middlewares.RequestLogMiddlewareExtensions.UseRequestLog(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Middleware injector
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SpotEight.Api.Controllers.ApiControllerBase">
+            <summary>
+            Controlador base para API
+            </summary>
+        </member>
+        <member name="P:SpotEight.Api.Controllers.ApiControllerBase.Mediator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SpotEight.Api.Controllers.V1.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Controllers.V1.UserController.#ctor(MediatR.IMediator)">
+            <summary>
+            
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:SpotEight.Api.Controllers.V1.UserController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SpotEight.Api.Filters.ApiExceptionFilterAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Filters.ApiExceptionFilterAttribute.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Filters.ApiExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:SpotEight.Api.Filters.ApiExceptionFilterAttribute.HandleException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:SpotEight.Api.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SpotEight.Api.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SpotEight.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:SpotEight.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:SpotEight.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="environment"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+    </members>
+</doc>
