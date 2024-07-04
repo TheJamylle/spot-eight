@@ -8,7 +8,10 @@ O projeto SpotEight é uma aplicação de streaming de músicas com gerenciament
 
 O projeto oferece as seguintes funcionalidades:
 
--   [Lista de funcionalidades com breve descrição de cada uma]
+-   Rede Social
+-   Gerenciamento de Músicas e Playlists
+-   Compartilhamento entre Redes Sociais
+-   E muito mais
 
 **Tecnologias Utilizadas**
 
